@@ -1,0 +1,28 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if a>b and a>c and a>d:
+   print(a,'is big')
+ elif b>c and b>d:
+   print(b,'is big')
+ elif c>d:
+   print(c,'is big')
+ elif a==b==c==d:
+   print('all are equal')
+ else:
+   print(d,'is big')
+   
+   
+num=int9input('enter no'))
+name=input('enter name')
+grp=input('enter group')
+s1=int(input('enter maths marks'))
+s2=int(input('enter stat marks'))
+s3=int(input('enter cs marks'))
+if s1>=35 and s2>=35 and s3>=35:
+   print('pass')
+else:
+   print('fail')
+   
+ 
